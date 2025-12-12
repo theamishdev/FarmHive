@@ -29,15 +29,21 @@ function Navbar() {
 
             <li className="nav-item">
               <a href="#Home">
-                <button className="btn ms-3 px-4 fw-semibold text-warning" style={{ background: "transparent", border: "none" }}>
+                <button
+                  className="btn ms-3 px-4 fw-semibold"
+                  style={{ background: "transparent", border: "none", color: "white" }}
+                >
                   Home
                 </button>
               </a>
             </li>
 
-            <li classname="nav-item">
+            <li className="nav-item">
               <a href="#Products">
-                <button className="btn ms-3 px-4 fw-semibold text-warning" style={{ background: "transparent", border: "none" }}>
+                <button
+                  className="btn ms-3 px-4 fw-semibold"
+                  style={{ background: "transparent", border: "none", color: "white" }}
+                >
                   Products
                 </button>
               </a>
@@ -45,7 +51,10 @@ function Navbar() {
 
             <li className="nav-item">
               <a href="#Cart">
-                <button className="btn ms-3 px-4 fw-semibold text-warning" style={{ background: "transparent", border: "none" }}>
+                <button
+                  className="btn ms-3 px-4 fw-semibold"
+                  style={{ background: "transparent", border: "none", color: "white" }}
+                >
                   Cart
                 </button>
               </a>
@@ -53,7 +62,10 @@ function Navbar() {
 
             <li className="nav-item">
               <a href="#About">
-                <button className="btn ms-3 px-4 fw-semibold text-warning" style={{ background: "transparent", border: "none" }}>
+                <button
+                  className="btn ms-3 px-4 fw-semibold"
+                  style={{ background: "transparent", border: "none", color: "white" }}
+                >
                   About
                 </button>
               </a>
@@ -61,7 +73,10 @@ function Navbar() {
 
             <li className="nav-item">
               <a href="/contact.html">
-                <button className="btn ms-3 px-4 fw-semibold text-warning" style={{ background: "transparent", border: "none" }}>
+                <button
+                  className="btn ms-3 px-4 fw-semibold"
+                  style={{ background: "transparent", border: "none", color: "white" }}
+                >
                   Contact Us
                 </button>
               </a>
