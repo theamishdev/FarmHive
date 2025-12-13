@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <style>
+
+  *{
+    overflow: hidden;
+  }
   body {
     margin: 0;
     padding: 0;
@@ -26,13 +30,14 @@
   }
 
   .container {
-    width: 430px;
+    width: 450px;
     background: rgba(0, 0, 0, 0.68);
-    padding: 35px 32px;   /* Balanced padding */
+    padding: 40px;   /* Balanced padding */
     border-radius: 16px;
     box-shadow: 0 0 25px rgba(255, 215, 0, 0.25);
     animation: floatIn 0.8s ease-out;
     backdrop-filter: blur(3px);
+
   }
 
   @keyframes floatIn {
@@ -54,7 +59,7 @@
     border: 2px solid #FFD700;
     background: #000;
     color: #FFD700;
-    width: 100%;
+    width: 80%;
     margin: 10px auto; 
     padding-right:150 px ;      /* Center spacing */
     display: block;          /* Forces true centering */
