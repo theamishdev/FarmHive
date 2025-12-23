@@ -7,7 +7,8 @@ import About from "./components/pages/about.jsx";
 import Login from "./components/pages/Login.jsx";
 import Register from "./components/pages/Register.jsx";
 import SellerDashboard from "./components/pages/SellerDashboard.jsx";
-import { Routes, Route } from "react-router-dom";   
+import ForgotPassword from "./components/pages/ForgotPassword.jsx";
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/seller" element={<SellerDashboard />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
       </Routes>
 
 

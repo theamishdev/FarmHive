@@ -104,7 +104,7 @@ const Login = () => {
                 </button>
 
                 <div className="auth-link">
-                    <p><a href="#">Forgot Password?</a></p>
+                    <p><Link to="/forgot-password">Forgot Password?</Link></p>
                     <p>Don't have an account? <Link to="/register">Register</Link></p>
                 </div>
 
